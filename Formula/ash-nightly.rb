@@ -1,28 +1,28 @@
 class AshNightly < Formula
   desc "AI assistant for bash, Fish, and zsh"
   homepage "https://github.com/Jonconradt/ash"
-  version "0.27.0-nightly.20261011.1"
+  version "0.27.0-nightly.20261011.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Jonconradt/ash/releases/download/v0.27.0-nightly.20261011.1/ash-v0.27.0-nightly.20261011.1-darwin-arm64.tar.gz"
-      sha256 "efbfa88cbb64b5dc6062934bb0f99d06da6820a1550726f8b9839d296c97910c"
+      url "https://github.com/Jonconradt/ash/releases/download/v0.27.0-nightly.20261011.2/ash-v0.27.0-nightly.20261011.2-darwin-arm64.tar.gz"
+      sha256 "911e7fd88c5657c78fb678a579696c87bd185fa8aa5dedd11bb1db65e6adf1e3"
     end
     on_intel do
-      url "https://github.com/Jonconradt/ash/releases/download/v0.27.0-nightly.20261011.1/ash-v0.27.0-nightly.20261011.1-darwin-amd64.tar.gz"
-      sha256 "25ba801e470a421457bee7fd7a1feab7b2916b1af19cc7c30b990b17999e37d7"
+      url "https://github.com/Jonconradt/ash/releases/download/v0.27.0-nightly.20261011.2/ash-v0.27.0-nightly.20261011.2-darwin-amd64.tar.gz"
+      sha256 "79bc438da14901bb2c9db6c1f932f94b81c0b0b7fcd383983ea4d2fbdd386f73"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Jonconradt/ash/releases/download/v0.27.0-nightly.20261011.1/ash-v0.27.0-nightly.20261011.1-linux-arm64.tar.gz"
-      sha256 "b4b081733afe6671e016da1df755d9a71415b77b32c32e0504568ccc3b71ce7f"
+      url "https://github.com/Jonconradt/ash/releases/download/v0.27.0-nightly.20261011.2/ash-v0.27.0-nightly.20261011.2-linux-arm64.tar.gz"
+      sha256 "5ff840f501be4feb114d2554a964334c8b78a62bb9439a15e43e2a8e586f328e"
     end
     on_intel do
-      url "https://github.com/Jonconradt/ash/releases/download/v0.27.0-nightly.20261011.1/ash-v0.27.0-nightly.20261011.1-linux-amd64.tar.gz"
-      sha256 "8ff600b86e2551112c6b2e22504a4c93319599532328890da20381d40586f920"
+      url "https://github.com/Jonconradt/ash/releases/download/v0.27.0-nightly.20261011.2/ash-v0.27.0-nightly.20261011.2-linux-amd64.tar.gz"
+      sha256 "80f92be25849ff40c3db8b13adf56d76afbcc5576130917fcb1d5c81c84ba73c"
     end
   end
 
