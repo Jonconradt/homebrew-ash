@@ -1,28 +1,28 @@
 class AshBeta < Formula
   desc "AI assistant for bash, Fish, and zsh"
   homepage "https://github.com/Jonconradt/ash"
-  version "0.27.0-beta.2"
+  version "0.27.0-beta.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Jonconradt/ash/releases/download/v0.27.0-beta.2/ash-v0.27.0-beta.2-darwin-arm64.tar.gz"
-      sha256 "4bcf199a53c9d27d9a1c5e5ff50a5dceaf9d2e130e6c79efe6d8a5fbe980e809"
+      url "https://github.com/Jonconradt/ash/releases/download/v0.27.0-beta.4/ash-v0.27.0-beta.4-darwin-arm64.tar.gz"
+      sha256 "947939a96d25fda18830b14bf9784b024b5f5173954437a0c07331c2a0176016"
     end
     on_intel do
-      url "https://github.com/Jonconradt/ash/releases/download/v0.27.0-beta.2/ash-v0.27.0-beta.2-darwin-amd64.tar.gz"
-      sha256 "0d50f5248a50b58761454cdc55e8b4e09d89ac6e71fe795930957e10691c1db9"
+      url "https://github.com/Jonconradt/ash/releases/download/v0.27.0-beta.4/ash-v0.27.0-beta.4-darwin-amd64.tar.gz"
+      sha256 "12e8bf08ea31896766585a29bea924b16e8ed6240d67e8dd8cf16d5087c0f4da"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Jonconradt/ash/releases/download/v0.27.0-beta.2/ash-v0.27.0-beta.2-linux-arm64.tar.gz"
-      sha256 "80866b0eb45997ed196d03fbcda5fe749457f1a11076208704eb84c747c47da1"
+      url "https://github.com/Jonconradt/ash/releases/download/v0.27.0-beta.4/ash-v0.27.0-beta.4-linux-arm64.tar.gz"
+      sha256 "5ccf9a580fde7731e43c65e7ec7877fe3c80a7fc3d487a35c1f4d055183c2cf5"
     end
     on_intel do
-      url "https://github.com/Jonconradt/ash/releases/download/v0.27.0-beta.2/ash-v0.27.0-beta.2-linux-amd64.tar.gz"
-      sha256 "23885af4d6b884cc7e006ae0f8fc3826936f400e6ae87215954c27fa0b91c383"
+      url "https://github.com/Jonconradt/ash/releases/download/v0.27.0-beta.4/ash-v0.27.0-beta.4-linux-amd64.tar.gz"
+      sha256 "8a4e8e2edef616b514a224dc5bbe26438afe11a44322caae77a10a3dd4e4db60"
     end
   end
 
@@ -38,6 +38,7 @@ class AshBeta < Formula
       (share / "man" / locale / "man1").install page
     end
     (share / "licenses" / "ash").install "LICENSE"
+    (share / "licenses" / "ash").install "THIRD_PARTY_NOTICES.md"
   end
 
   test do
