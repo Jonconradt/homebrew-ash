@@ -1,28 +1,28 @@
 class AshBeta < Formula
   desc "AI assistant for bash, Fish, and zsh"
   homepage "https://github.com/Jonconradt/ash"
-  version "0.30.0-beta.1"
+  version "0.32.0-beta.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Jonconradt/ash/releases/download/v0.30.0-beta.1/ash-v0.30.0-beta.1-darwin-arm64.tar.gz"
-      sha256 "2af102479003fad5ada6d1cb86897ba7302b6108ddcbfc312a1fd29daa81b342"
+      url "https://github.com/Jonconradt/ash/releases/download/v0.32.0-beta.2/ash-v0.32.0-beta.2-darwin-arm64.tar.gz"
+      sha256 "ed370bf12067a22c1add797085736c23d5f95f85bfdd530feeb932499e0e6521"
     end
     on_intel do
-      url "https://github.com/Jonconradt/ash/releases/download/v0.30.0-beta.1/ash-v0.30.0-beta.1-darwin-amd64.tar.gz"
-      sha256 "5da0303950da4cbae1aa62d9648e03e3ff0fa2761195a8e5dc9895a0e0866b0d"
+      url "https://github.com/Jonconradt/ash/releases/download/v0.32.0-beta.2/ash-v0.32.0-beta.2-darwin-amd64.tar.gz"
+      sha256 "31c768ffe9f39ce5008464205559fb2d6e208dc46a1ac64f846ea074c0331081"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Jonconradt/ash/releases/download/v0.30.0-beta.1/ash-v0.30.0-beta.1-linux-arm64.tar.gz"
-      sha256 "6e83b1ffdd83d525f4bfbedff2be8a836eef4f22f7eb95f339b9b6e6f6be227a"
+      url "https://github.com/Jonconradt/ash/releases/download/v0.32.0-beta.2/ash-v0.32.0-beta.2-linux-arm64.tar.gz"
+      sha256 "cbb4ccc1fe2018c6b0c953ec57d1350d4e2d1a89b475a9a58939bfa865dd2966"
     end
     on_intel do
-      url "https://github.com/Jonconradt/ash/releases/download/v0.30.0-beta.1/ash-v0.30.0-beta.1-linux-amd64.tar.gz"
-      sha256 "b58267389687bc22eb27f84afb0e7e938760c992364069e9f00ebb927317fdd2"
+      url "https://github.com/Jonconradt/ash/releases/download/v0.32.0-beta.2/ash-v0.32.0-beta.2-linux-amd64.tar.gz"
+      sha256 "f7fc8f01069a5e4dee49d62b99bfa5db429a4655a7323cc76e52285e1656b4f4"
     end
   end
 
